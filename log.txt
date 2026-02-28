@@ -1,0 +1,44 @@
+2026-02-28 05:48:37 UTC
+Linux-6.18.12-200.fc43.x86_64-x86_64-with-glibc2.41
+Ren'Py 8.5.2.26010301
+
+Early init took 92 ms
+Loading error handling took 120 ms
+Loading script took 477 ms
+Loading save slot metadata took 25 ms
+Loading persistent took 0 ms
+Set script version to: None (alternate path)
+Running init code took 312 ms
+Loading analysis data took 5 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 1 ms
+Dump and make backups took 0 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 72 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 38 ms
+Analyze screens took 2 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 422 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1200, 614)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Mesa'
+Renderer: 'llvmpipe (LLVM 19.1.7, 256 bits)'
+Version: '4.5 (Compatibility Profile) Mesa 25.0.7-2'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1200, 'current_h': 614, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(800, 600) physical=(683, 512) drawable=(683, 512)
+Maximum texture size: 4096x4096
+controller: '030000005e040000be02000014010000' 'XInput Controller' 1
+controller: '030000005e040000be02000014010000' 'XInput Controller' 1
+controller: '030000005e040000be02000014010000' 'XInput Controller' 1
+controller: '030000005e040000be02000014010000' 'XInput Controller' 1
