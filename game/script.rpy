@@ -6,107 +6,109 @@ define J = Character ("Jasper")
 
 label start:
    scene bg
-   You "it seems Ive woken up in an unfamiliar environment"
+   You "It seems I've woken up in an unfamiliar environment.."
    scene inroom
    T "Oh, finally.. you've woken up!"
    You "Where the hell am I?"
-   T "Oh come on silly.. dont you remember?"
+   T "Oh come on silly.. Don't you remember?"
    You "..."
    T "The company put us under cause the trip is so long!"
-   T "In case your memory needs jogging, Im the chef of this ship, my name is Tara!"
+   T "In case your memory needs jogging, I'm the chef of this ship, my name is Tara!"
    T "Take a look at your own ID to remember yourself!"
    scene idcard
    You "What the heck! It's all broken!"
    scene inroom
-   T "Oh my, why dont we just call you by your ID number?"
+   T "Oh my, why don't we just call you by your ID number?"
+   # 00143
+   # T "Mr. 00143"
    show captain
-   C "you awake now eh?"
-   C "lets get this over an' done with!"
-   C "we know the previous crew that came down here died from *that* disease"
-   C "remember to look out for the symptoms.."
-   C "bleeding from the ears gums or fingernails."
-   C "itchy, red eyes,"
-   C "and emotional outbursts."
-   C "but we're going to do far better than them."
+   C "You awake now eh?"
+   C "Lets get this over an' done with!"
+   C "We know the previous crew that came down here died from *that* disease"
+   C "Remember to look out for the symptoms.."
+   C "Bleeding from the ears gums or fingernails."
+   C "Itchy, red eyes,"
+   C "And emotional outbursts."
+   C "But we're going to do far better than them."
    scene algae 
-   C "im going to go get the first sample."
+   C "I'm going to go get the first sample."
    scene sandy
-   T "be safe out there captain!"
+   T "Be safe out there captain!"
    scene collect 
    You "I hope it goes well.."
    scene cut 
    You "..."
    scene hallway
    show captain
-   C "im back"
-   T "im so glad youre back in one piece Captain!"
-   C "me too. but we need to spend a night here before we can go back to the surface"
-   T "its getting late, its probably time to go to bed"
-   You "*you go to bed*"
+   C "I'm back"
+   T "I'm so glad youre back in one piece Captain!"
+   C "Me too. but we need to spend a night here before we can go back to the surface."
+   T "It's getting late, it's probably time to go to bed"
+   You "*You go to bed*"
    scene doorway
    C "BANG!"
-   You "what is that sound?!"
+   You "What is that sound?!"
    You "Captain.. what are you doing here?"
    C "unghhh"
-   You "captain, whats wrong? are you alright"
-   You "AHH! captain!! what the hell!"
-   You "is this what happened to the last crew that came here?!"
-   You "*running to the freezer room*"
+   You "Captain, what's wrong? Are you alright?"
+   You "AHH! Captain!! What the hell!"
+   You "Is this what happened to the last crew that came here?!"
+   You "*Running to the freezer room*"
    scene freezer
-   C "Ughhhhhuhhhhh *hiss*"
+   C "ughhhhhuhhhhh *hiss*"
    menu:
       "shove him in": 
          pass
       "SHOVE HIM IN": 
          pass
    scene hands
-   You "i better go tell everyone about this! He's crazy!!"
+   You "I better go tell everyone about this! He's crazy!!"
    scene hallway
-   You "*after an anxious rest you wake up and meet up with the crew*"
+   You "*After an anxious rest you wake up and meet up with the crew*"
    T "Good morning my sweetheart!"
    
    show tara_happy
    show jasper
-   You "the captain has gone insane, i think he has the infection."
+   You "The Captain has gone insane, I think he has the infection."
    show tara_sad
-   J "well we cant just leave him in there"
+   J "Well we can't just leave him in there"
    show jasper
    menu:
-      "offer to help.": 
-         You "ill look after him, dont worry about it!"
+      "Offer to help.": 
+         You "I'll look after him, don't worry about it!"
          scene infected
-         You "the disease spreads to you from the captain, killing you slowly. it feels almost like you are suffocating"
-      "tell Tara to do it.":
+         You "The disease spreads to you from the Captain, killing you slowly. It feels almost like you are suffocating"
+      "Tell Tara to do it.":
          scene
          You "Tara, could you please go check up on him, he seems like he has a soft spot for you."
          T "I would love to, I'll go there right away."
-         You "*hours pass and you talk to Jasper.*"
+         You "*Hours pass and you talk to Jasper.*"
          show jasper
-         You "Jasper, i think that Tara has the infection. shes been looking sad and has been staying in her room for hours and everytime ive seen her eyes have been bloodshot"
-         J "*scared* so you want me to kill her??"
-         You "i just dont want her to suffer.. shes so sweet."
-         J "aghh i guess youre right.."
+         You "Jasper, I think that Tara has the infection. She's been looking sad and has been staying in her room for hours and everytime I've seen her eyes have been bloodshot"
+         J "*Scared* so you want me to kill her??"
+         You "I just don't want her to suffer.. she's so sweet."
+         J "Aghh I guess youre right.."
          You "Jasper gets his gun and you hear a brief conversation."
-         J "Tara, im sorry, i think youre so amazing and ive loved seeing you.."
+         J "Tara, I'm sorry, I think you're so amazing and I've loved seeing you.."
          show tara_sad
-         T "what do you mean.. *frantically* jasper!"
-         You "*a loud bang rings through your ears."
-         You "*days pass and the realisation hits you, you cannot go to the suface without the captain."
+         T "What do you mean.. *frantically* Jasper!"
+         You "*A loud bang rings through your ears."
+         You "*Days pass and the realisation hits you, you cannot go to the suface without the captain."
          You "Youve been avoiding Jasper ever since you told him to kill Tara"         
-         You "it just hasnt been the same without her."
-         You " you may as well be proactive with your situation"
+         You "It just hasnt been the same without her."
+         You "You may as well be proactive with your situation"
          menu:
-            "stay in your room trying to find a cure":
-               You "youve been in your room for weeks, in the mirror you look tired and sad..."
-               You "you see that your eyes are bloodshot and they feel itchy, your ears are graced with a thin stream of blood and your nails are deep scarlet."
+            "Stay in your room trying to find a cure":
+               You "You've been in your room for weeks, in the mirror you look tired and sad..."
+               You "You see that your eyes are bloodshot and they feel itchy, your ears are graced with a thin stream of blood and your nails are deep scarlet."
                scene infected
-               You "you died"
-            "try to drive the submarine.":
-               You "you go into the cockpit of the submarine and are greeted with an array of pretty lights and buttons, none of them make sense."
-               You "the remaining crew is growing ever suspicious of you. you have genuinely had enough of their constant nagging and comments on your state."
-               You "the knife in the pockets of your pants glimmers, and you hold it tight, slashing jaspers chest and gouging out the eyes of the captain."
+               You "You Died."
+            "Try to drive the submarine.":
+               You "You go into the cockpit of the submarine and are greeted with an array of pretty lights and buttons, none of them make sense."
+               You "The remaining crew is growing ever suspicious of you. you have genuinely had enough of their constant nagging and comments on your state."
+               You "The knife in the pockets of your pants glimmers, and you hold it tight, slashing jaspers chest and gouging out the eyes of the captain."
                scene kill
-               You "you go manic and die."
+               You "You go manic, and die."
          
       
       
