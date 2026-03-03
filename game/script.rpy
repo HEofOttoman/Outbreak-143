@@ -13,7 +13,7 @@ label start:
    T "Oh come on silly.. Don't you remember?"
    You "..."
    T "The company put us under cause the trip is so long!"
-   T "In case your memory needs jogging, I'm the chef of this ship, my name is Tara!"
+   T "In case your memory needs jogging, my name is Tara, and I'm the chef of this ship!"
    T "Take a look at your own ID to remember yourself!"
    scene idcard
    You "What the heck! It's all broken!"
@@ -33,7 +33,7 @@ label start:
    scene algae 
    C "I'm going to go get the first sample."
    scene sandy
-   T "Be safe out there captain!"
+   T "Be safe out there Captain!"
    scene collect 
    You "I hope it goes well.."
    scene cut 
@@ -71,7 +71,7 @@ label start:
    show jasper
    You "The Captain has gone insane, I think he has the infection."
    show tara_sad
-   J "Well we can't just leave him in there"
+   J "Well we can't just leave him in there!"
    show jasper
    menu:
       "Offer to help.": 
@@ -93,7 +93,7 @@ label start:
          show tara_sad
          T "What do you mean.. *frantically* Jasper!"
          You "*A loud bang rings through your ears."
-         You "*Days pass and the realisation hits you, you cannot go to the suface without the captain."
+         You "*Days pass and the realisation hits you, you cannot go to the suface without the Captain."
          You "Youve been avoiding Jasper ever since you told him to kill Tara"         
          You "It just hasnt been the same without her."
          You "You may as well be proactive with your situation"
@@ -106,7 +106,8 @@ label start:
             "Try to drive the submarine.":
                You "You go into the cockpit of the submarine and are greeted with an array of pretty lights and buttons, none of them make sense."
                You "The remaining crew is growing ever suspicious of you. you have genuinely had enough of their constant nagging and comments on your state."
-               You "The knife in the pockets of your pants glimmers, and you hold it tight, slashing jaspers chest and gouging out the eyes of the captain."
+               You "The knife in the pockets of your pants glimmers, and you hold it tight."
+               You "You slash Jasper's chest and gouge out the eyes of the Captain."
                scene kill
                You "You go manic, and die."
          
