@@ -3,36 +3,37 @@ define T = Character ("Tara")
 define You = Character ("You")
 define C = Character ("Captain",image ="captain")
 define J = Character ("Jasper")
+
 label start:
    scene bg
-   You "it seems ive woken up in an unfamilliar enviorment"
+   You "it seems Ive woken up in an unfamiliar environment"
    scene inroom
-   T "Oh,finaly.. you've woken up!"
+   T "Oh, finally.. you've woken up!"
    You "Where the hell am I?"
-   T "Oh come on silly.. dont you remeber?"
+   T "Oh come on silly.. dont you remember?"
    You "..."
    T "The company put us under cause the trip is so long!"
-   T "In case your memory needs jogging Im the chef of this ship, my name is Tara!"
-   T "Take a look at your own ID to remeber yourself!"
+   T "In case your memory needs jogging, Im the chef of this ship, my name is Tara!"
+   T "Take a look at your own ID to remember yourself!"
    scene idcard
-   You "What the heck! Its all broken!"
+   You "What the heck! It's all broken!"
    scene inroom
    T "Oh my, why dont we just call you by your ID number?"
    show captain
    C "you awake now eh?"
    C "lets get this over an' done with!"
-   C "we know the preivous crew that came down here died from *that* disease"
-   C "remember to lookout for the symptoms.."
+   C "we know the previous crew that came down here died from *that* disease"
+   C "remember to look out for the symptoms.."
    C "bleeding from the ears gums or fingernails."
-   C "itchy, red eyes."
+   C "itchy, red eyes,"
    C "and emotional outbursts."
    C "but we're going to do far better than them."
    scene algae 
    C "im going to go get the first sample."
    scene sandy
-   T "be safe out there captian!"
+   T "be safe out there captain!"
    scene collect 
-   You "i hope it goes well.."
+   You "I hope it goes well.."
    scene cut 
    You "..."
    scene hallway
@@ -62,7 +63,7 @@ label start:
    You "i better go tell everyone about this! He's crazy!!"
    scene hallway
    You "*after an anxious rest you wake up and meet up with the crew*"
-   T "Goodmorning my sweetheart!"
+   T "Good morning my sweetheart!"
    
    show tara_happy
    show jasper
@@ -74,18 +75,18 @@ label start:
       "offer to help.": 
          You "ill look after him, dont worry about it!"
          scene infected
-         You "the disease spreads to you from the captain, killing you slowly, it feels almost like you are suffocating"
+         You "the disease spreads to you from the captain, killing you slowly. it feels almost like you are suffocating"
       "tell Tara to do it.":
          scene
          You "Tara, could you please go check up on him, he seems like he has a soft spot for you."
-         T "i would love to, ill go there right away."
+         T "I would love to, I'll go there right away."
          You "*hours pass and you talk to Jasper.*"
          show jasper
          You "Jasper, i think that Tara has the infection. shes been looking sad and has been staying in her room for hours and everytime ive seen her eyes have been bloodshot"
          J "*scared* so you want me to kill her??"
          You "i just dont want her to suffer.. shes so sweet."
          J "aghh i guess youre right.."
-         You "jasper gets his gun and you hear a breif conversation."
+         You "Jasper gets his gun and you hear a brief conversation."
          J "Tara, im sorry, i think youre so amazing and ive loved seeing you.."
          show tara_sad
          T "what do you mean.. *frantically* jasper!"
@@ -93,7 +94,7 @@ label start:
          You "*days pass and the realisation hits you, you cannot go to the suface without the captain."
          You "Youve been avoiding Jasper ever since you told him to kill Tara"         
          You "it just hasnt been the same without her."
-         You " you may as well be proative with your situation"
+         You " you may as well be proactive with your situation"
          menu:
             "stay in your room trying to find a cure":
                You "youve been in your room for weeks, in the mirror you look tired and sad..."
@@ -102,8 +103,8 @@ label start:
                You "you died"
             "try to drive the submarine.":
                You "you go into the cockpit of the submarine and are greeted with an array of pretty lights and buttons, none of them make sense."
-               You "the remaining crew is growing ever suspisous of you. you have genuinely had enough of their constant nagging and comments on your state."
-               You "the knife in the pockets of your pants glimmers and you hold it tight, slashing jaspers chest and gauging out the eyes of the captian."
+               You "the remaining crew is growing ever suspicious of you. you have genuinely had enough of their constant nagging and comments on your state."
+               You "the knife in the pockets of your pants glimmers, and you hold it tight, slashing jaspers chest and gouging out the eyes of the captain."
                scene kill
                You "you go manic and die."
          
